@@ -23,7 +23,7 @@ type myData struct {
 }
 func main() {
 	http.HandleFunc("/", handle)
-	http.ListenAndServe("192.168.2.145:3000", nil)
+	http.ListenAndServe("192.168.1.1:3000", nil)
 }
 
 
